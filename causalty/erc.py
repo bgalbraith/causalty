@@ -28,7 +28,7 @@ def sddtf(h: np.ndarray, chi: np.ndarray) -> np.ndarray:
 
 
 def erc(x: np.ndarray, lags: int,
-                  fres: int) -> Tuple[np.ndarray, np.ndarray]:
+        fres: int) -> Tuple[np.ndarray, np.ndarray]:
     """
     Event Related Causality
     """

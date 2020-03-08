@@ -27,7 +27,6 @@ def tsdata_to_var(x: np.ndarray, lags: int) -> Tuple[np.ndarray, np.ndarray]:
     Compute the coefficient matrix give time series data in the form
     (sources, observations, trials)
     """
-    p_ = lags + 1
     x_ = np.atleast_3d(x)
     n_vars, n_obs, n_trials = x_.shape
     m = n_trials * (n_obs - lags)
