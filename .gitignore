@@ -4,6 +4,10 @@
 # Jupyter
 .ipynb_checkpoints
 
+# Setuptools
+dist
+*.egg-info
+
 # JetBrains
 .idea/
 causalty.iml
